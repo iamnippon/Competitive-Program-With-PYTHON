@@ -4,8 +4,6 @@
 #Solution:
 data = input().split() #Take the inpute and split it
 
-print(int(data[0]))
-print(int(data[1]))
-print((data[2]))
-print(float(data[3]))
-print(float(data[4]))
+number_of_elements = len(data) #Calculate the number of elements in the input
+for i in range(number_of_elements): #Loop through the number of elements
+    print(data[i]) #Print each element in a new line
